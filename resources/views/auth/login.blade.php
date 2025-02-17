@@ -25,7 +25,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-image: url('vector.jpg');
+            background-image: url('assets/background-image/vector.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
