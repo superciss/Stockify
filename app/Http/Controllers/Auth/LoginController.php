@@ -24,7 +24,10 @@ class LoginController extends Controller
         ]);
 
         if(Auth::attempt( $validated)) {
-            return '';
+            return view('dashboard.index')->with('notyf', notyf()
+            ->position('x', 'right')
+            ->position('y', 'top')
+            ->info('Welcome, User'));
         }
     }
 
