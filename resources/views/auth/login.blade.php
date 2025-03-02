@@ -152,7 +152,8 @@
 <body>
     <div class="container">
         <h2>Stockify</h2>
-        <form action="">
+        <form method="POST" action="{{ route('login')}}">
+            @csrf
             <div class="input-group">
                 <input type="text" name="email" placeholder="Email Address" required>
                 <i class='bx bx-envelope'></i>
